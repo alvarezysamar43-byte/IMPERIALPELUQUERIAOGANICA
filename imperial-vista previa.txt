@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imperial · Peluquería y belleza</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#faf5ef;color:#352820;
+font-family:Arial,sans-serif;line-height:1.6}
+main{max-width:1050px;margin:auto;padding:55px 24px}
+header{text-align:center;margin-bottom:40px}
+.marca{color:#946444;letter-spacing:3px;font-size:13px}
+h1{font-family:Georgia,serif;font-size:clamp(36px,7vw,64px);
+line-height:1.1;margin:18px 0}
+h2{font-family:Georgia,serif;font-size:26px;margin-top:0}
+.intro{max-width:650px;margin:20px auto;color:#715d50}
+.servicios{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+article{background:white;border:1px solid #eadbce;
+padding:28px;border-radius:18px}
+article p{color:#715d50}
+.redes{margin-top:32px;background:#49362c;color:white;
+padding:32px;border-radius:18px;text-align:center}
+.redes p{color:#eadbce}
+.botones{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+button{padding:12px 18px;border:1px solid #a68c7a;
+border-radius:24px;background:transparent;color:white;font:inherit}
+button:disabled{opacity:.8}
+.nota{font-size:13px}
+footer{text-align:center;margin-top:32px;color:#715d50}
+@media(max-width:700px){.servicios{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="marca">IMPERIAL PELUQUERÍA ORGÁNICA</div>
+<h1>Tu cabello.<br>Tu belleza. Tu momento.</h1>
+<p class="intro">
+La nueva etapa de Ducximar López Beauty Studio.
+La misma dirección y la atención de Ysamar, Wladimir
+y Ducximar, con servicios para completar tu look.
+</p>
+</header>
+
+<section class="servicios" aria-label="Nuestros servicios">
+<article>
+<h2>Cabello</h2>
+<p>Cortes, coloración, balayage, mechas, alisados
+y tratamientos capilares.</p>
+<p>Encuentra un estilo que te represente con
+una atención personalizada.</p>
+</article>
+<article>
+<h2>Uñas y pedicure</h2>
+<p>Polygel, gel, uñas acrílicas, esmaltado permanente
+y pedicure.</p>
+<p>Con Ducximar, dale a tus manos y pies
+el cuidado y el estilo que buscas.</p>
+</article>
+<article>
+<h2>Pestañas y cejas</h2>
+<p>Extensiones de pestañas, lifting, perfilado
+y laminado de cejas.</p>
+<p>Detalles que realzan tu mirada y completan
+tu experiencia de belleza.</p>
+</article>
+</section>
+
+<section class="redes">
+<h2>Conoce nuestros trabajos</h2>
+<p>Descubre transformaciones de cabello, diseños de uñas
+y resultados de pestañas y cejas en nuestras redes.</p>
+<div class="botones">
+<button disabled>Instagram · Imperial</button>
+<button disabled>Facebook · Imperial</button>
+<button disabled>Instagram · Ducximar</button>
+<button disabled>TikTok · Ducximar</button>
+<button disabled>TikTok · Ysamar</button>
+</div>
+<p class="nota">Vista previa: enlaces de redes pendientes de incorporar.</p>
+</section>
+
+<footer>
+<strong>Te esperamos en La Florida</strong><br>
+Av. Walker Martínez 232, Local 4, Santiago.<br>
+Ysamar · Wladimir · Ducximar
+</footer>
+</main>
+</body>
+</html>
